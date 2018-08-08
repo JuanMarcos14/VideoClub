@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="c43ce1cac4434d52a83b2c96425ce35a" Name="Diagram1">
+        <EntityTypeShape EntityType="VideoClubModel.Categories" Width="1.5" PointX="0.75" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="VideoClubModel.Copies" Width="1.5" PointX="5.25" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="VideoClubModel.Customers" Width="1.5" PointX="5.25" PointY="6.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="VideoClubModel.Distributors" Width="1.5" PointX="0.75" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="VideoClubModel.Employees" Width="1.5" PointX="5.25" PointY="10" IsExpanded="true" />
+        <EntityTypeShape EntityType="VideoClubModel.Movies" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="VideoClubModel.Rentals" Width="1.5" PointX="7.5" PointY="1" IsExpanded="true" />
+        <AssociationConnector Association="VideoClubModel.FK__Movies__Category__5165187F" ManuallyRouted="false" />
+        <AssociationConnector Association="VideoClubModel.FK__Copies__Movie__5535A963" ManuallyRouted="false" />
+        <AssociationConnector Association="VideoClubModel.FK__Rentals__Copy__59FA5E80" ManuallyRouted="false" />
+        <AssociationConnector Association="VideoClubModel.FK__Rentals__Custome__5812160E" ManuallyRouted="false" />
+        <AssociationConnector Association="VideoClubModel.FK__Movies__Distribu__52593CB8" ManuallyRouted="false" />
+        <AssociationConnector Association="VideoClubModel.FK__Rentals__Employe__59063A47" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
